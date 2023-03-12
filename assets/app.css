@@ -70,7 +70,7 @@ nav{
     top:0;
     left: 0;
     /* The z-index ,make sure the navbar displays over any other element on web */
-    z-index: index 1;
+    z-index:69;
     /* Used css flexbox,desplay set to flex hence flex properties get unlocked */
     display:flex;
     align-items: center;
@@ -432,6 +432,9 @@ footer{
     }
 }
 @media(max-width:420px){
+    .bio{
+        width:320px;
+    }
     .hero img{
         height:37.5rem;
         width:23rem;
