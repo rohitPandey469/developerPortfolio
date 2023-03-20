@@ -14,7 +14,7 @@
     --secondary-shadow: #6983a1;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
+    --line-height: 1.5rem;
     --transition: 0.2s;
 }
 /* Variables end */
@@ -143,7 +143,7 @@ nav a{
     border-radius: 10rem;
 }
 .hero .bio{
-    width:25rem;
+    width:21rem;
     padding:0.625rem;
     border-radius: 2rem;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -168,10 +168,14 @@ nav a{
     color:var(--text-color);
 }
 .more-about{
+    /* width: */
     background-color:var(--bg-color);
     padding:1rem 6rem; 
-    text-align: center;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
+
 .more-about-title{
     display: inline;
     font-weight: 600;
@@ -234,9 +238,10 @@ nav a{
 }
 .project-pic{
     width:65%;
-    height:60%;
+    height:9rem;
 }
 .projects-container{
+    margin-top: 1.64rem;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
@@ -254,6 +259,7 @@ nav a{
 }
 .project-card{
     width:21vw;
+    height:25rem;
     padding: 20px;
     transition: all 0.5s;
 }
@@ -265,7 +271,8 @@ nav a{
     margin-bottom: var(--bottom-margin);
     font-weight: 100;
     color:var(--text-color);
-    line-height: 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
 }
 .project-title{
     margin-bottom: var(--bottom-margin);
