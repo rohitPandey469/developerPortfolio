@@ -42,6 +42,10 @@ hr{
     background-color: lightgray;
     color:red;
 }
+.text{
+    font-weight: 400;
+    font-size: 2rem;
+}
 @media(max-width:521px){
     .board{
         width:330px;

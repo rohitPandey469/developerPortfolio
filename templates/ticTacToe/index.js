@@ -96,4 +96,14 @@ function checkWinner(){
         gameOver=true;
         return;
     }
+    checkForDraw();
+}
+const text=document.querySelector('#text');
+function checkForDraw(){
+    for(let r=0;r<3;r++){
+        for(let c=0;c<3;c++){
+            if(board[r][c]==null) return;
+        }
+    }
+    text.innerText="DRAW!";
 }
