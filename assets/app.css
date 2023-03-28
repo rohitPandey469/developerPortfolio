@@ -271,7 +271,7 @@ nav a{
     margin-bottom: var(--bottom-margin);
     font-weight: 100;
     color:var(--text-color);
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     text-align: justify;
 }
 .project-title{
