@@ -36,8 +36,10 @@ function onScroll(){
     var scroll=document.documentElement.scrollTop;
     if(scroll>30){
         heading.classList.add("background-color");
+        nav.classList.add("scrolled");
     }
     else{
         heading.classList.remove("background-color");
+        nav.classList.remove("scrolled");
     }
 };
